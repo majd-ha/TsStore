@@ -28,6 +28,7 @@ function App() {
         {
           path: "products",
           element: <ProductsLayout />,
+          errorElement: <ErrorPage />,
           children: [
             {
               index: true,

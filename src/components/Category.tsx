@@ -8,6 +8,7 @@ export type OutletData = {
   data: Productstype[];
   isLoading: boolean;
   isFetching: boolean;
+  isError?: boolean;
 };
 export default function Category() {
   const { data, isFetching, isLoading } = useOutletContext<OutletData>();

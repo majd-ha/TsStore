@@ -7,7 +7,7 @@ export default function Navbar() {
       initial={{ y: "-100vh" }}
       animate={{ y: 0 }}
       transition={{ type: "spring", stiffness: 30 }}
-      className="flex justify-between items-center px-5 py-3 border border-transparent mb-4 border-b-orange-600 h-[70px] sticky top-0"
+      className="flex justify-between items-center px-5 py-3 border border-transparent mb-1 border-b-orange-600 h-[70px] sticky top-0"
     >
       <NavLink to={""}>E-Shope</NavLink>
       <NavLink to={"/products/all"}>All </NavLink>
@@ -16,7 +16,7 @@ export default function Navbar() {
           {" "}
           <BsCart4 size={"1.8rem"} />{" "}
         </NavLink>
-        <NavLink to={"/about"}>about</NavLink>
+        <NavLink to={"/about"}>About</NavLink>
       </div>
     </motion.div>
   );

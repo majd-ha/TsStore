@@ -76,7 +76,9 @@ export default function ImgSlider() {
       </div>
       <div className="absolute rounded-xl top-[90%] max-sm:right-0 max-sm:left-0 h-[10%] bg-[#eee] right-[10%]  left-[10%] flex justify-between items-center ">
         {isLoading || isFetching ? (
-          <>Loading...</>
+          <p className="text-center text-gray-700 animate-pulse w-[100%]">
+            Loading ....
+          </p>
         ) : (
           data.map((el: string) => {
             return (
