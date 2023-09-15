@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.active {
+  @apply text-red-500;
+}
+
+.sldr {
+  box-shadow: 20px 0px 50px whitesmoke;
+}
+.sldr2 {
+  box-shadow: -20px 0px 50px whitesmoke;
+}
